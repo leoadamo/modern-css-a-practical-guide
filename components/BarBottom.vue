@@ -8,9 +8,22 @@ defineProps({
 </script>
 
 <template>
-  <div
+  <footer
     v-if="title || social"
-    class="text-gray-700 bg-barBottom flex absolute w-full bottom-0 left-0 py-0.5 px-4 font-bold text-xs"
+    class="
+      flex 
+      w-full 
+      absolute 
+      bottom-0 
+      left-0 
+      px-4
+      py-0.5 
+      bg-barBottom
+      text-xs
+      text-gray-700 
+      font-bold 
+      z-50
+    "
   >
     <div class="w-1/2 text-left">
       {{ title }}
@@ -19,5 +32,5 @@ defineProps({
     <div class="w-1/2 flex justify-end">
       <slot />
     </div>
-  </div>
+  </footer>
 </template>
