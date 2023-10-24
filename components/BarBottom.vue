@@ -27,6 +27,10 @@ defineProps({
   >
     <div class="w-1/2 text-left">
       {{ title }}
+
+      <slot name="flag">
+        <twemoji-flag-brazil />
+      </slot>
     </div>
 
     <div class="w-1/2 flex justify-end">

@@ -448,10 +448,24 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/fluent-emoji@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fluent-emoji/-/fluent-emoji-1.1.15.tgz#8769eac2583743b122d04ac7d55779e2df4cf49c"
+  integrity sha512-C0HajGHrQpLsI7P8/C113xuV8vr8QTD8RG50SuEEG7OMRRA1TkuR+s5lJTuvq/9//yrzI9HMIO5dodh/hKo2sA==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.2", "@iconify-json/ph@^1.1.6":
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.6.tgz#bbb7a3589199d91d8298bc084c4e893c8821ad8e"
   integrity sha512-dexzEndlXQX/sbQhnEpA94Pby6JCGV2tZToSGcPPQpbilDGyk5VMd0ymusYoocRAn6+qLpGRvMoz5XFKGqP+VA==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/twemoji@^1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@iconify-json/twemoji/-/twemoji-1.1.12.tgz#6913e54b430d0a0f5753f1c236973366bf8466c5"
+  integrity sha512-8F3z+0+NYO/qeCiyjeWJ9ozkBvPmXsK+4pkQynUuILyXDIi8ddBHb1DJ6O2Qp5M23LzaA/Gkg8/8CQwgGslGmQ==
   dependencies:
     "@iconify/types" "*"
 
