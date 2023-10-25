@@ -11,7 +11,7 @@ transition: slide-left
 
 <!-- Intro -->
 <section>
-  <h1 class="font-bold !text-white" v-motion-slide-right>
+  <h1 class="font-black !text-white" v-motion-slide-right>
     Novidades no CSS
   </h1>
 
