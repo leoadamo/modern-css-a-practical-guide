@@ -1,7 +1,12 @@
 ---
-transition: slide-left
+title: CSS subgrid
+layout: section
+transition: slide-up
 ---
 
-# Subgrid
-
-[TBD]
+<!-- CSS subgrid -->
+<section>
+  <h1 class="section-title">
+    CSS subgrid
+  </h1>
+</section>

@@ -1,21 +1,22 @@
 ---
-theme: 'dracula'
-title: 'Novidades no CSS: Um guia prático'
-author: 'Leonardo Adamoli'
-keywords: 'css,trending,dev,guide'
-exportFilename: 'modern-css-a-practical-guide-exported'
-class: 'text-center'
-hideInToc: true
+theme: dracula
+title: Novidades no CSS - Um guia prático
+author: Leonardo Adamoli
+keywords: css,trending,dev,guide
+exportFilename: modern-css-a-practical-guide-exported
+class: text-center
 transition: slide-left
+hideInToc: true
 ---
 
 <!-- Intro -->
 <section>
-  <h1 class="font-black !text-white" v-motion-slide-right>
+  <h1 class="section-title" v-motion-slide-right>
     Novidades no CSS
   </h1>
 
-  <small class="inline-flex items-end gap-2 !text-green" v-motion-slide-left>
+  <small 
+    class="inline-flex items-end gap-2 text-green" v-motion-slide-left>
     <i>um guia prático</i>
     <fluent-emoji-nail-polish-light class="w-[30px] h-[30px]" />
   </small>
@@ -26,9 +27,14 @@ transition: slide-left
 src: ./pages/summary.md
 ---
 
-<!-- Subgrid -->
+<!-- CSS custom properties -->
 ---
-src: ./pages/subgrid.md
+src: ./pages/css-custom-properties.md
+---
+
+<!-- Advanced selectors -->
+---
+src: ./pages/advanced-selectors.md
 ---
 
 <!-- Container queries -->
@@ -36,7 +42,7 @@ src: ./pages/subgrid.md
 src: ./pages/container-queries.md
 ---
 
-<!-- Advanced selectors -->
+<!-- Subgrid -->
 ---
-src: ./pages/advanced-selectors.md
+src: ./pages/subgrid.md
 ---
