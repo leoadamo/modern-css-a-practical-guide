@@ -455,6 +455,20 @@
   dependencies:
     "@iconify/types" "*"
 
+"@iconify-json/fluent@^1.1.43":
+  version "1.1.43"
+  resolved "https://registry.yarnpkg.com/@iconify-json/fluent/-/fluent-1.1.43.tgz#e459dc5b60b35953be4625654ef0acce5171eb99"
+  integrity sha512-HrEHb2cuCmQ1XoNScALDpyzkuwJMlHjxgdnS/tri2tH02jl/CZGHgzLEpkSPBuIbgPhhCnBap0nP2aK6P4A5Hw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify-json/noto@^1.1.17":
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/@iconify-json/noto/-/noto-1.1.17.tgz#1bf71c1ad30a6b5e0585b869064e5b48c52010b5"
+  integrity sha512-P8aDKzkKmu7PwY9YcGNMGh9DcfPpjr88tIDRKP2YUSq2IzXuD68rSE8ngliuoq8JzBUyF3RvlWEyRocxepnbtg==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/ph@^1.1.2", "@iconify-json/ph@^1.1.6":
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.6.tgz#bbb7a3589199d91d8298bc084c4e893c8821ad8e"

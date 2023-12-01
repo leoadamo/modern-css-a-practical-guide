@@ -14,7 +14,9 @@
     "slidev-theme-purplin": "^1.2.0"
   },
   "devDependencies": {
+    "@iconify-json/fluent": "^1.1.43",
     "@iconify-json/fluent-emoji": "^1.1.15",
+    "@iconify-json/noto": "^1.1.17",
     "@iconify-json/twemoji": "^1.1.12"
   }
 }
