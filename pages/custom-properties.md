@@ -44,7 +44,7 @@ hideInToc: true
   --secondary-color: #50fa7b;
 }
 ```
-<br />
+<br>
 
 - São acessadas utilizando a função `var()` do CSS, que recebe como parâmetro o nome da variável a ser utilizada:
 
