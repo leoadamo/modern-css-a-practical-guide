@@ -16,15 +16,6 @@ transition: slide-up
 </section>
 
 ---
-layout: quote
-hideInToc: true
----
-
-# "Valores definidos pelo dev e que uma vez especificados podem ser reutilizados diversas vezes dentro de uma aplicação."
-
-Tiffany Brown, Sitepoint.
-
----
 hideInToc: true
 ---
 
@@ -53,6 +44,7 @@ hideInToc: true
   --secondary-color: #50fa7b;
 }
 ```
+<br />
 
 - São acessadas utilizando a função `var()` do CSS, que recebe como parâmetro o nome da variável a ser utilizada:
 
@@ -63,7 +55,7 @@ hideInToc: true
 }
 ```
 <!-- Docs -->
-<AppReferences class="mt-[32px]">
+<AppReferences class="mt-[20px]">
   <AppLink url="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" title="Using CSS custom properties (variables) - MDN" />
 </AppReferences>
 
