@@ -1,12 +1,12 @@
 ---
-title: Advanced CSS selectors
+title: Selectors
 layout: section
 transition: slide-up
 ---
 
-<!-- Advanced CSS selectors -->
+<!-- Selectors -->
 <section>
   <h1 class="section-title">
-    Advanced CSS selectors
+    Selectors
   </h1>
 </section>
