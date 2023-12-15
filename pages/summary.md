@@ -5,7 +5,7 @@ hideInToc: true
 
 # Sumário
 
-Durante esta _talk_ irão ser abordados os seguintes tópicos:
+Nesta _talk_, vamos passar pelos seguintes tópicos:
 
 <!-- Table of contents -->
 <Toc />
