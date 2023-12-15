@@ -37,12 +37,12 @@ src: ./pages/custom-properties.md
 src: ./pages/selectors.md
 ---
 
-<!-- Container queries -->
----
-src: ./pages/container-queries.md
----
-
 <!-- Subgrid -->
 ---
 src: ./pages/subgrid.md
+---
+
+<!-- Container queries -->
+---
+src: ./pages/container-queries.md
 ---

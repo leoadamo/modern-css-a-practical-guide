@@ -21,9 +21,9 @@ hideInToc: true
 
 # CSS custom properties
 
-- Não necessitam de um pré-processador CSS;
+- Não necessitam de um pré-processador CSS para serem interpretadas;
 - Ficam disponíveis no _runtime_ da aplicação, facilitando testes e depuração;
-- Podem ser combinadas com pré-processadores CSS, como SASS, Stylus e PostCSS, por exemplo;
+- Podem ser <span class="underline">combinadas</span> com pré-processadores CSS, como SASS, Stylus e PostCSS, por exemplo;
 - Podem ter os seus valores redefinidos dentro de CSS _media-queries_;
 - Aceitam valores parciais, o que facilita a composição de variáveis e a escalabilidade;
 - Levam em consideração a estrutura do DOM e podem ser escopadas em elementos específicos ou através de classes mais genéricas (_cascade_);
@@ -58,6 +58,8 @@ hideInToc: true
 <AppReferences class="mt-[20px]">
   <AppLink url="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties" title="Using CSS custom properties (variables) - MDN" />
 </AppReferences>
+
+<!-- A função CSS "var()" permite a passagem de um segundo parâmetro, este opcional, que será interpretado como um valor de fallback para o primeiro parâmetro passado. -->
 
 ---
 hideInToc: true

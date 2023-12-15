@@ -44,7 +44,7 @@ nav h1, nav h2, nav h3, nav h4, nav h5, nav h6 {
 
 <!-- Docs -->
 <AppReferences class="mt-[32px]">
-  <AppLink url="https://grrr.tech/posts/2023/using-new-pseudo-class-selectors-in-2023/#is" title="Using new pseudo-class selectors in 2023" />
+  <AppLink url="https://grrr.tech/posts/2023/using-new-pseudo-class-selectors-in-2023/#is" title="Using new pseudo-class selectors in 2023 - :is()" />
 </AppReferences>
 
 ---
@@ -60,7 +60,7 @@ hideInToc: true
 
 # :has()
 
-- Permite que os estilos sejam aplicados ao checar se um elemento contém filhos ou ancestrais específicos;
+- Permite que os estilos sejam aplicados a um elemento com base na existência de filhos ou irmãos específicos;
 - Também possibilita que a busca seja feita com base no estado dos elementos. Por exemplo:
 
 ```css
@@ -91,7 +91,39 @@ layout: section
 
 ---
 hideInToc: true
+---
+
+# :where()
+
+- Possui um comportamento extremamente parecido com o seletor `:is()`, tendo como principal diferença a sua especificidade;
+- Enquanto o seletor `:where()` possui especificidade _0_, o seletor `:is()` leva em consideração a especificidade do <span class="underline">seletor mais específico</span> dentre a lista de argumentos.
+
+```css
+/* Declaração manual */
+article h1,
+article h2,
+article h3,
+article h4 {
+  font-size: 30px;
+}
+
+/* Utilizando :where() */
+article:where(h1, h2, h3, h4) {
+  font-size: 30px;
+}
+```
+
+<!-- Docs -->
+<AppReferences class="mt-[18px]">
+  <AppLink url="https://grrr.tech/posts/2023/using-new-pseudo-class-selectors-in-2023/#where" title="Using new pseudo-class selectors in 2023 - :where()" />
+</AppReferences>
+
+---
+hideInToc: true
 layout: section
 ---
 
-<AppLink url="https://codepen.io/leoadamo/pen/gOqBqVR?editors=1100" title="Demo" class="text-4xl" />
+<AppLink url="https://codepen.io/leoadamo/pen/WNPqymP" title="Demo" class="text-4xl" />
+
+<!-- Os seletores :is() e :where() são classificados como "forgiving selectors", ou seja, caso algum seletor seja inválido dentro da lista de argumentos, ele será ignorado e os demais terão os estilos aplicados
+  O seletor :has() é classificado como um "non-forgiving selector", ou seja, caso algum seletor seja inválido dentre a lista de argumentos, todo o bloco de estilo será ignorado pelo navegador -->
