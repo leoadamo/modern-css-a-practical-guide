@@ -27,14 +27,14 @@ hideInToc: true
 src: ./pages/summary.md
 ---
 
-<!-- CSS custom properties -->
+<!-- Custom properties -->
 ---
-src: ./pages/css-custom-properties.md
+src: ./pages/custom-properties.md
 ---
 
-<!-- Advanced selectors -->
+<!-- Selectors -->
 ---
-src: ./pages/advanced-selectors.md
+src: ./pages/selectors.md
 ---
 
 <!-- Container queries -->
