@@ -12,7 +12,7 @@ hideInToc: true
 <!-- Intro -->
 <section>
   <h1 class="section-title" v-motion-slide-right>
-    Novidades no CSS
+    Novidades do CSS
   </h1>
 
   <small 
