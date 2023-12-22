@@ -18,5 +18,9 @@
     .section-title {
       @apply !font-black !text-white;
     }
+
+    &.image-right + * {
+      @apply !bg-contain mx-6;
+    }
   }
 }
