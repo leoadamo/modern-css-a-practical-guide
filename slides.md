@@ -39,7 +39,7 @@ src: ./pages/foundations/02-cascade-layers.md
 
 <!-- Scope -->
 ---
-src: ./pages/foundations/03-scope.md
+src: ./pages/foundations/03-scoped-css.md
 ---
 
 <!-- Individual transform properties -->
@@ -49,25 +49,25 @@ src: ./pages/foundations/04-individual-transform-properties.md
 
 <!-- Container queries -->
 ---
-src: ./pages/responsive/01-container-queries.md
+src: ./pages/responsive/05-container-queries.md
 ---
 
 <!-- Subgrid -->
 ---
-src: ./pages/responsive/02-subgrid.md
+src: ./pages/responsive/06-subgrid.md
 ---
 
 <!-- Pseudo class selectors -->
 ---
-src: ./pages/responsive/03-pseudo-class-selectors.md
+src: ./pages/responsive/07-pseudo-class-selectors.md
 ---
 
 <!-- Color mix -->
 ---
-src: ./pages/responsive/04-color-mix.md
+src: ./pages/responsive/08-color-mix.md
 ---
 
 <!-- View transitions -->
 ---
-src: ./pages/interactions/01-view-transitions.md
+src: ./pages/interactions/09-view-transitions.md
 ---

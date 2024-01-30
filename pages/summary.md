@@ -1,5 +1,5 @@
 ---
-transition: slide-up
+transition: slide-left
 hideInToc: true
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: Scope
+title: Scoped CSS
 layout: section
 transition: slide-up
 ---
 
-<!-- Scope -->
+<!-- Scoped CSS -->
 <section>
   <h1 class="section-title">
-    Scope
+    Scoped CSS
   </h1>
 </section>
