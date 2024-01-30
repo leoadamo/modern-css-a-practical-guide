@@ -32,9 +32,9 @@ src: ./pages/summary.md
 src: ./pages/custom-properties.md
 ---
 
-<!-- Selectors -->
+<!-- Pseudo class selectors -->
 ---
-src: ./pages/selectors.md
+src: ./pages/pseudo-class-selectors.md
 ---
 
 <!-- Container queries -->
