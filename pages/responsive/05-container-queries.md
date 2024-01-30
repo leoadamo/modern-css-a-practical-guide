@@ -52,3 +52,15 @@ hideInToc: true
  }
 }
 ```
+
+<!-- Docs -->
+<AppReferences class="mt-[16px]">
+  <AppLink url="https://developer.mozilla.org/en-US/blog/getting-started-with-css-container-queries/" title="Getting started with CSS container queries" />
+</AppReferences>
+
+---
+hideInToc: true
+layout: section
+---
+
+<AppLink url="" title="Demo" class="text-4xl" />
