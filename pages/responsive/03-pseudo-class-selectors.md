@@ -4,10 +4,10 @@ layout: section
 transition: slide-up
 ---
 
-<!-- Pseudo class Selectors -->
+<!-- Pseudo class selectors -->
 <section>
   <h1 class="section-title">
-    Pseudo class Selectors
+    Pseudo class selectors
   </h1>
 </section>
 
@@ -78,7 +78,7 @@ li:has(+ li:hover)
 ```
 
 <!-- Docs -->
-<AppReferences class="mt-[52px]">
+<AppReferences class="mt-[42px]">
   <AppLink url="https://www.smashingmagazine.com/2023/01/level-up-css-skills-has-selector/" title="Level Up Your CSS Skills With The :has() Selector" />
 </AppReferences>
 
@@ -157,7 +157,7 @@ textarea:user-invalid {
 ```
 
 <!-- Docs -->
-<AppReferences class="mt-[18px]">
+<AppReferences class="mt-[32px]">
   <AppLink url="https://web.dev/articles/user-valid-and-user-invalid-pseudo-classes" title="The :user-valid and :user-invalid pseudo-classes" />
 </AppReferences>
 
