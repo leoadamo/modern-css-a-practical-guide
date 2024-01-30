@@ -1,13 +1,13 @@
 ---
-title: Selectors
+title: Pseudo class selectors
 layout: section
 transition: slide-up
 ---
 
-<!-- Selectors -->
+<!-- Pseudo class Selectors -->
 <section>
   <h1 class="section-title">
-    Selectors
+    Pseudo class Selectors
   </h1>
 </section>
 
@@ -124,6 +124,49 @@ layout: section
 ---
 
 <AppLink url="https://codepen.io/leoadamo/pen/WNPqymP" title="Demo" class="text-4xl" />
+
+---
+hideInToc: true
+layout: section
+---
+
+# :user-valid / :user-invalid
+
+---
+hideInToc: true
+---
+
+# :user-valid / :user-invalid
+
+- Ambas vieram para aprimorar as até então já existentes `:valid` e `:invalid` pseudo-classes;
+- Diferenciam-se das suas predecessoras uma vez que os estilos só serão aplicados ao elemento **após** a interação do usuário.
+
+```css
+/* Sintaxe */
+input:user-valid,
+select:user-valid,
+textarea:user-valid {
+  border-color: green;
+}
+
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+  border-color: red;
+}
+```
+
+<!-- Docs -->
+<AppReferences class="mt-[18px]">
+  <AppLink url="https://web.dev/articles/user-valid-and-user-invalid-pseudo-classes" title="The :user-valid and :user-invalid pseudo-classes" />
+</AppReferences>
+
+---
+hideInToc: true
+layout: section
+---
+
+<AppLink url="https://codepen.io/web-dot-dev/pen/wvNJGrO" title="Demo" class="text-4xl" />
 
 <!-- Os seletores :is() e :where() são classificados como "forgiving selectors", ou seja, caso algum seletor seja inválido dentro da lista de argumentos, ele será ignorado e os demais terão os estilos aplicados
   O seletor :has() é classificado como um "non-forgiving selector", ou seja, caso algum seletor seja inválido dentre a lista de argumentos, todo o bloco de estilo será ignorado pelo navegador -->
