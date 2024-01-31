@@ -27,7 +27,7 @@ hideInToc: true
 - Podem ter os seus valores redefinidos dentro de CSS _media-queries_;
 - Aceitam valores parciais, o que facilita a composição de variáveis e a escalabilidade;
 - Levam em consideração a estrutura do DOM e podem ser escopadas em elementos específicos ou através de classes mais genéricas (_cascade_);
-- Podem ser manipuladas através do javascript;
+- Podem ser manipuladas através do javascript.
 
 ---
 hideInToc: true
