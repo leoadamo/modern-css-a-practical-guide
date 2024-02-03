@@ -80,4 +80,4 @@ hideInToc: true
 layout: section
 ---
 
-<AppLink url="https://codepen.io/web-dot-dev/pen/YzdOydZ" title="Demo" class="text-4xl" />
+<AppLink url="https://codepen.io/leoadamo/pen/zYbRWLB" title="Demo" class="text-4xl" />
