@@ -1,6 +1,6 @@
 ---
 theme: dracula
-title: Novidades no CSS - Um guia prático
+title: "CSS trends: a not-so brief recap"
 author: Leonardo Adamoli
 keywords: css,trending,dev,guide
 exportFilename: modern-css-a-practical-guide-exported
@@ -12,12 +12,12 @@ hideInToc: true
 <!-- Intro -->
 <section>
   <h1 class="section-title" v-motion-slide-right>
-    Novidades do CSS
+    CSS trends
   </h1>
 
   <small 
     class="inline-flex items-end gap-2 text-green" v-motion-slide-left>
-    <i>um guia prático</i>
+    <i>a <s>not-so</s> brief recap</i>
     <fluent-emoji-nail-polish-light class="w-[30px] h-[30px]" />
   </small>
 </section>
