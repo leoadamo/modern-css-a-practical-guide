@@ -29,7 +29,7 @@ hideInToc: true
 
 # Container queries
 
-- Para utilizar, é necessário definir o elemento que será utilizado como _container_:
+- Para utilizar, é necessário definir o elemento que atuará como um _container_:
 
 ```css
 .card-container {
