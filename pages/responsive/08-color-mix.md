@@ -17,7 +17,7 @@ hideInToc: true
 
 # color-mix()
 
-- Solução nativa do CSS para viabilizar o que até então só era possível com o uso de pré-processadores (_SASS_, _Stylus_): a mistura de cores;
+- Solução nativa do CSS para viabilizar o que até então só era possível com o uso de pré-processadores: a mistura de cores;
 - Suporta diversos formatos de cores (`RGB`, `sRGB`, `HSL`, `LCH`, entre outros);
 - O resultado final varia de acordo com o [color space](https://developer.chrome.com/docs/css-ui/high-definition-css-color-guide) escolhido, podendo apresentar resultados bem distintos entre eles;
 - Suportado praticamente pela grande maioria dos navegadores mais atuais ([Can I use - color-mix()](https://caniuse.com/?search=color-mix())).

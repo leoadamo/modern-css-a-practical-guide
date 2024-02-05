@@ -1,13 +1,13 @@
 ---
-title: Pseudo class selectors
+title: Pseudo-class selectors
 layout: section
 transition: slide-up
 ---
 
-<!-- Pseudo class selectors -->
+<!-- Pseudo-class selectors -->
 <section>
   <h1 class="section-title">
-    Pseudo class selectors
+    Pseudo-class selectors
   </h1>
 </section>
 
@@ -123,7 +123,7 @@ hideInToc: true
 layout: section
 ---
 
-<AppLink url="https://codepen.io/leoadamo/pen/WNPqymP" title="Demo" class="text-4xl" />
+<AppLink url="" title="Demo" class="text-4xl" />
 
 ---
 hideInToc: true

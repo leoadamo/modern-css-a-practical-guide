@@ -42,7 +42,7 @@ hideInToc: true
 
 # Individual transform properties
 
-Agora vamos a um exemplo utilizando _individual transform properties_:
+Utilizando _individual transform properties_:
 
 ```css
 .my-element {
