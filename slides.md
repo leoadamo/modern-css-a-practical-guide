@@ -1,6 +1,6 @@
 ---
 theme: dracula
-title: Novidades no CSS - Um guia prático
+title: "CSS trends: a not-so brief recap"
 author: Leonardo Adamoli
 keywords: css,trending,dev,guide
 exportFilename: modern-css-a-practical-guide-exported
