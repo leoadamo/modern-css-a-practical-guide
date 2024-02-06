@@ -66,8 +66,3 @@ src: ./pages/responsive/07-pseudo-class-selectors.md
 ---
 src: ./pages/responsive/08-color-mix.md
 ---
-
-<!-- View transitions -->
----
-src: ./pages/interactions/09-view-transitions.md
----
