@@ -1,15 +1,15 @@
 <script setup>
-defineProps({
-  text: {
-    type: String,
-    required: true,
-  },
+  defineProps({
+    text: {
+      type: String,
+      required: true,
+    },
 
-  url: {
-    type: String,
-    required: true
-  }
-});
+    url: {
+      type: String,
+      required: true
+    }
+  });
 </script>
 
 <template>
