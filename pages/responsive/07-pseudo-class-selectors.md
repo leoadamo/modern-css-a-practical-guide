@@ -123,7 +123,7 @@ hideInToc: true
 layout: section
 ---
 
-<AppLink url="" title="Demo" class="text-4xl" />
+<AppLink url="https://codepen.io/leoadamo/pen/xxBapRv" title="Demo" class="text-4xl" />
 
 ---
 hideInToc: true
