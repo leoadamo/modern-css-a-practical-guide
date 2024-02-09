@@ -64,14 +64,14 @@ hideInToc: true
 - Também possibilita que a busca seja feita com base no estado dos elementos. Por exemplo:
 
 ```css
-/* Seleciona todos os elementos "h1" que possuírem um elemento "p" como filho, não importando o nível */
-h1:has(p) {}
+/* Seleciona todos os elementos "article" que possuírem um elemento "h2" como filho, não importando o nível */
+article:has(h2) {}
 
-/* Seleciona todos os elementos "h1" que possuírem um elemento "p" como filho direto */
-h1:has(> p) {}
+/* Seleciona todos os elementos "article" que possuírem um elemento "h2" como filho direto */
+article:has(> h2) {}
 
-/* Seleciona todos os elementos "h1" forem seguidos imediatamente por um elemento do tipo "p" */
-h1:has(+ p) {}
+/* Seleciona todos os elementos "article" forem seguidos imediatamente por um elemento do tipo "h2" */
+article:has(+ h2) {}
 
 /* Seleciona o elemento "li" que for antecessor a outro "li" com o estado de hover */
 li:has(+ li:hover)

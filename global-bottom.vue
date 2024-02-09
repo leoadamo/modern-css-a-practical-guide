@@ -1,5 +1,5 @@
 <template>
-  <BarBottom title="Leonardo Adamoli | Front-end Developer" v-motion-fade>
+  <BarBottom title="Leonardo Adamoli | Front-end Developer - @melhorenvio" v-motion-fade>
     <BarBottomItem 
       text="@leoadamo" 
       url="https://github.com/leoadamo"

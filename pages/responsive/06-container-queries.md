@@ -46,7 +46,7 @@ hideInToc: true
   grid-template-columns: 1fr;
 }
 
-@container (min-width: 800px) {
+@container card (min-width: 800px) {
  .card {
    grid-template-columns: repeat(2, 1fr);
  }

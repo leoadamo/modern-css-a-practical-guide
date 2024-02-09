@@ -47,14 +47,14 @@ src: ./pages/foundations/03-scoped-css.md
 src: ./pages/foundations/04-individual-transform-properties.md
 ---
 
-<!-- Container queries -->
----
-src: ./pages/responsive/05-container-queries.md
----
-
 <!-- Subgrid -->
 ---
-src: ./pages/responsive/06-subgrid.md
+src: ./pages/responsive/05-subgrid.md
+---
+
+<!-- Container queries -->
+---
+src: ./pages/responsive/06-container-queries.md
 ---
 
 <!-- Pseudo class selectors -->
